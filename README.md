@@ -1,3 +1,16 @@
 ## isomithric-example
 
 Example Isomithric (isomorphic Mithril framework) application.
+
+### Setup
+
+    git clone git@github.com:isomithric/isomithric-example.git
+    cd isomithric-example
+    npm install
+    node_modules/.bin/gulp
+
+### Start server
+
+    coffee server.coffee
+
+Now access [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
