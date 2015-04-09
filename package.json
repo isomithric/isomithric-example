@@ -1,0 +1,30 @@
+{
+  "name": "isomithric-example",
+  "version": "1.0.0",
+  "description": "Example Isomithric (isomorphic Mithril framework) application.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:isomithric/isomithric-example.git"
+  },
+  "keywords": [
+    "isomithric",
+    "mithril"
+  ],
+  "author": "Winton Welsh <winton@fullst.ac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isomithric/isomithric-example/issues"
+  },
+  "homepage": "https://github.com/isomithric/isomithric-example",
+  "dependencies": {
+    "browserify": "",
+    "coffee-script": "",
+    "gulp": "",
+    "gulp-coffee": "",
+    "vinyl-transform": ""
+  }
+}
