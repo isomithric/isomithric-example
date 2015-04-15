@@ -9,5 +9,3 @@ tasks.forEach (task) ->
 
   if is_task
     require "./#{task}"
-
-gulp.task "default", [ "coffee", "browserify" ]

@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Example Isomithric (isomorphic Mithril framework) application.",
   "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:isomithric/isomithric-example.git"
@@ -23,8 +20,11 @@
   "dependencies": {
     "browserify": "",
     "coffee-script": "",
+    "express": "",
     "gulp": "",
-    "gulp-coffee": "",
-    "vinyl-transform": ""
+    "gulp-coffeeify": "",
+    "gulp-nodemon": "",
+    "gulp-run": "",
+    "mithril": ""
   }
 }
