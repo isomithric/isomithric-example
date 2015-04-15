@@ -25,6 +25,7 @@
     "gulp-coffeeify": "",
     "gulp-nodemon": "",
     "gulp-run": "",
+    "isomithric": "",
     "mithril": ""
   }
 }
