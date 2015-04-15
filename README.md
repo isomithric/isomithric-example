@@ -2,7 +2,7 @@
 
 Example Isomithric (isomorphic Mithril framework) application.
 
-### Set up
+### Setup
 
     git clone git@github.com:isomithric/isomithric-example.git
     cd isomithric-example
@@ -12,3 +12,5 @@ Example Isomithric (isomorphic Mithril framework) application.
 ### Run
 
     gulp
+
+Now access [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
