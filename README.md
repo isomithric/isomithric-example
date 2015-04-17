@@ -13,4 +13,4 @@ Example Isomithric (isomorphic Mithril framework) application.
 
     gulp
 
-Now access [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
+Now access [http://127.0.0.1:8000/1](http://127.0.0.1:8000/1) in your browser.
