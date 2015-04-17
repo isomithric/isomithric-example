@@ -1,14 +1,17 @@
-iso     = require "isomithric"
+m       = require "mithril"
+iso     = require("isomithric")(m)
 Article = require "../models/article"
 Layout  = require "./layout"
-m       = require "mithril"
 
 module.exports = iso class
 
   constructor: ->
     @article = m.prop({})
+
     @global.promises.push(
-      new Article(id: @param("id")).get(@article)
+      new Article(id: @param("id"))
+        .get(@article)
+        .then -> m.redraw true
     )
 
   view: ->

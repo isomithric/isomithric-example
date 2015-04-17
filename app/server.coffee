@@ -1,5 +1,5 @@
+iso     = require("isomithric")()
 express = require "express"
-iso     = require "isomithric"
 routes  = require "./routes"
 
 app = express()

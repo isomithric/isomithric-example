@@ -1,4 +1,5 @@
-iso     = require "isomithric"
+m       = require "mithril"
+iso     = require("isomithric")(m)
 Article = require "./article"
 
 module.exports = iso class
