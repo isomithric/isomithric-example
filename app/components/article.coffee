@@ -8,12 +8,9 @@ module.exports = iso class
 
   constructor: ->
     @article = m.prop({})
-
-    @global.promises.push(
-      @article_model(id: @param("id"))
-        .get(@article)
-        .then -> m.redraw true
-    )
+    @article_model(id: @param("id"))
+      .get(@article)
+      .then -> m.redraw true
 
   view: ->
     @body_view(article: @article)
