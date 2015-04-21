@@ -1,7 +1,7 @@
 gulp    = require "gulp"
 nodemon = require "gulp-nodemon"
 
-gulp.task "default", [ "clean", "browserify" ], ->
+gulp.task "default", [ "clean", "browserify", "images" ], ->
   env = process.env.NODE_ENV || "development"
   nm  = nodemon
     script: "app"
