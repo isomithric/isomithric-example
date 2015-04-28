@@ -8,9 +8,9 @@ module.exports = iso class
 
   constructor: ->
     @article = m.prop({})
-    @article_model(id: @param("id"))
+    @articleModel(id: @param("id"))
       .get(@article)
       .then -> m.redraw true
 
   view: ->
-    @body_view(article: @article)
+    @bodyView(article: @article)

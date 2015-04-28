@@ -13,6 +13,6 @@ module.exports = iso class
       ]
 
     if @global.server
-      @layout_view(content: content)
+      @layoutView(content: content)
     else
       content
