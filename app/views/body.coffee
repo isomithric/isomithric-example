@@ -12,7 +12,7 @@ module.exports = iso class
         DIV    @article().body
       ]
 
-    if @global.server
+    if @server
       @layoutView(content: content)
     else
       content
